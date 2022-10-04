@@ -77,3 +77,21 @@ let carros = [[], //lista de carros da VW
 let nomeCarro = prompt("digite o nome do carro")
 let marcaCarro = prompt("digite a marca do carro")
 
+let carros = [[], //lista de carros da VW
+[], //lista de carros da GM
+[], //lista de carros da ford
+[], //lista de carros da Fiat
+]
+
+for (let i = 1; i <= 5; i++) { 
+let nomeCarro = prompt("digite o nome do carro")
+let marcaCarro = prompt("digite a marca do carro")
+
+if (marcaCarro === 'VW') {
+  carros[0].push(nomeCarro)
+} else if (marcaCarro === 'GM') {
+carros[1].push(nomeCarro)
+} else if (marcaCarro === 'Ford') 
+
+
+}
