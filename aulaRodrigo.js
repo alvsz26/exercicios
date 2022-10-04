@@ -68,3 +68,12 @@ horarios[iHoras].push(iMinutos)
   console.log(horarios)
 
 
+let carros = [[], //lista de carros da VW
+[], //lista de carros da GM
+[], //lista de carros da ford
+[], //lista de carros da Fiat
+]
+
+let nomeCarro = prompt("digite o nome do carro")
+let marcaCarro = prompt("digite a marca do carro")
+
