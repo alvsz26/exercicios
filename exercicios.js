@@ -33,5 +33,39 @@ if (comp3 == 1) {salaB++}
 
 console.log(`Computadores ligados na sala A: ${salaA}. Computadores ligados na sala B: ${salaB}`)
 
+Exercico 3:
+
+let SS = Number(prompt("Chamar para SS? 1 - sim 0 - nao"))
+let t = Number(prompt("Chamar para terréo? 1 - sim 0 - nao"))
+let andar1 = Number(prompt("Chamar para 1º andar? 1 - sim 0 - nao"))
+let elevador
+
+if (SS === 1) {elevador = "descendo"}
+if (t === 1) {elevador = "subindo"}
+else {elevador = "descendo"}
+if (andar1 === 1) {elevador = "subindo"}
+else {elevador = "descendo"}
+
+console.log(`elevador está ${elevador}`)
+
+
+Exercicio 4:
+
+let SS = Number(prompt("Chamar para SS? 1 - sim 0 - nao"))
+let t = Number(prompt("Chamar para terréo? 1 - sim 0 - nao"))
+let andar1 = Number(prompt("Chamar para 1º andar? 1 - sim 0 - nao"))
+let elevador
+
+if (SS === 1) {elevador = "descendo"}
+if (t === 1) {elevador = "subindo"}
+else {elevador = "descendo"}
+if (andar1 === 1) {elevador = "subindo"}
+else {elevador = "descendo"}
+
+console.log(`elevador está ${elevador}`)
+
+
+
+
 
 
